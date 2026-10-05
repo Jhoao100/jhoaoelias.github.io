@@ -1,0 +1,33 @@
+AGREGAR OTRA EXPERIENCIA / CONSTANCIA
+
+1. Guarda la imagen pública de tu documento dentro de:
+   assets/evidencias/
+
+2. En index.html busca: <div class="doc-grid">
+
+3. Copia una tarjeta completa que empiece con:
+   <button class="doc-card evidence-card"
+   y termine con:
+   </button>
+
+4. Cambia solamente:
+   data-doc="assets/evidencias/TU-ARCHIVO.webp"
+   data-title="Nombre que saldrá al abrir"
+   el año, institución, cargo y descripción.
+
+5. No necesitas tocar script.js.
+
+MÚSICA DE ENTRADA
+
+Coloca tu MP3 en:
+assets/audio/theme.mp3
+
+La música empieza al pulsar Entrar. Los navegadores de iPhone, Android, Windows y macOS bloquean el audio automático sin una interacción previa; por eso se usa la pantalla de entrada.
+
+SPOTIFY / GITHUB / DISCORD
+
+Los iconos ya están en la página como parte visual. Cuando tengas los enlaces que quieras hacer públicos, cambia el <span> del icono correspondiente por un <a href="TU-ENLACE" target="_blank" rel="noopener"> manteniendo el <i> que está dentro.
+
+EVIDENCIAS
+
+Las versiones públicas ocultan el DNI, pero mantienen visibles firmas y sellos. Conserva siempre los PDF originales fuera de la carpeta pública del sitio.

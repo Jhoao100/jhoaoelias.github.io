@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="Jhoao Elias — egresado de Desarrollo de Software en SENATI. Webs, sistemas, tiendas, paneles y proyectos digitales.">
+    <title>Jhoao Elias — Developer</title>
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="entry-screen" id="entryScreen">
+        <div class="entry-card"><img src="favicon.jpg" alt="Jhoao Elias">
+            <p>JHOAO ELIAS · ジョアオ</p>
+            <h1>Software, web y apps.</h1><button id="enterSite" type="button"><i class="fa-solid fa-volume-high"></i>
+                Entrar</button><small>ajusta tu volumeeeeeeeeeen</small>
+        </div>
+    </div>
+    <audio id="siteAudio" loop preload="auto" autoplay playsinline>
+        <source src="assets/audio/theme.mp3" type="audio/mpeg">
+    </audio>
+    <div class="sound-control" id="soundControl"><button class="sound-toggle" id="soundToggle" type="button"
+            aria-label="Activar o silenciar música"><i class="fa-solid fa-volume-high"></i></button><input
+            id="volumeSlider" type="range" min="0" max="100" value="28" aria-label="Volumen de la música"><span
+            id="volumeValue">28%</span></div>
+    <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+    <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+    <div class="floaters" id="floaters" aria-hidden="true"></div>
+    <header><a class="brand" href="#top"><img class="brand-photo" src="favicon.jpg" alt="Logo de Jhoao Elias"><b>Jhoao
+                Elias <em>ジョアオ</em></b></a>
+        <nav><a href="#work">Proyectos</a><a href="#about">Sobre mí</a><a href="#docs">Experiencia</a><a
+                href="#services">Servicios</a><a href="#contact">Contacto</a></nav><a class="mini-cta"
+            href="#contact">Hablemos ↗</a>
+    </header>
+    <main id="top">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="kicker">JHOAO ELIAS · SOFTWARE DEVELOPER</p>
+                <h1>Hago webs y sistemas<br><span>que sí sirven.</span></h1>
+                <p class="sub">Egresado de Desarrollo de Software en SENATI.<br>Web, apps, software y sistemas a medida.
+                </p>
+                <div class="actions"><a class="button dark" href="#work">Ver proyectos <span>↓</span></a><a
+                        class="button light whatsapp-link" href="https://wa.me/51913775992" target="_blank"
+                        rel="noopener">WhatsApp</a></div>
+                <div class="micro"><span>✦ Web</span><span>✦ Apps</span><span>✦ Software</span><span>✦
+                        Sistemas</span><span>✦ Datos</span></div>
+            </div>
+            <div class="hero-art">
+                <div class="window">
+                    <div class="window-bar"><i></i><i></i><i></i><span>jhoao.dev</span></div>
+                    <div class="screen"><span class="sticker s1">{ code }</span><span
+                            class="sticker s2">SENATI</span><span class="sticker s3">☕</span>
+                        <div class="hello">Hola.<br><b>Soy Jhoao.</b></div>
+                        <div class="cursor">↖</div>
+                    </div>
+                </div>
+                <div class="orbit o1">JS</div>
+                <div class="orbit o2">PHP</div>
+                <div class="orbit o3">SQL</div>
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <div class="section-title">
+                <p>TRABAJOS</p>
+                <h2>Algunos proyectos.</h2>
+            </div>
+            <div class="project-list">
+                <a class="project big" href="https://favmin.shop/" target="_blank" rel="noopener">
+                    <div class="shot favmin"><img src="assets/favmin-web.png" alt="Favmin tienda online"></div>
+                    <div class="project-copy"><small>E-COMMERCE + PANEL</small>
+                        <h3>Favmin</h3>
+                        <p>Tienda online con gestión de productos, pedidos, pagos y stock.</p><span>Visitar Favmin
+                            ↗</span>
+                    </div>
+                </a>
+                <article class="project">
+                    <div class="shot blue"><img src="assets/favmin-panel-censurado.jpg"
+                            alt="Panel de gestión Favmin con información censurada"></div>
+                    <div class="project-copy"><small>PANEL DE GESTIÓN</small>
+                        <h3>Favmin Admin</h3>
+                        <p>Control interno de la tienda.</p><span class="muted">Datos censurados por privacidad</span>
+                    </div>
+                </article>
+                <a class="project" href="https://labarcachiclayo.com/" target="_blank" rel="noopener">
+                    <div class="shot lilac"><img src="assets/labarca-web.png" alt="Web de La Barca Restobar"></div>
+                    <div class="project-copy"><small>WEB</small>
+                        <h3>La Barca Restobar</h3>
+                        <p>Carta, galería, reservas y contacto.</p><span>Visitar La Barca ↗</span>
+                    </div>
+                </a>
+                <a class="project" href="https://serviciosgeneralesivam.com/" target="_blank" rel="noopener">
+                    <div class="shot mint"><img src="assets/panel-maderera.png" alt="Sistema para empresa maderera">
+                    </div>
+                    <div class="project-copy"><small>WEB + SISTEMA</small>
+                        <h3>Servicios Generales IVAM</h3>
+                        <p>Web comercial y panel de gestión.</p><span>Ver proyecto ↗</span>
+                    </div>
+                </a>
+                <a class="project" href="https://latienditadelasmilcosas.serviciosgeneralesivam.com/" target="_blank"
+                    rel="noopener">
+                    <div class="shot peach"><img src="assets/tiendita-modal.png" alt="Tienda online"></div>
+                    <div class="project-copy"><small>E-COMMERCE</small>
+                        <h3>La Tiendita de las Mil Cosas</h3>
+                        <p>Catálogo, ofertas y carrito.</p><span>Ver proyecto ↗</span>
+                    </div>
+                </a>
+                <article class="project">
+                    <div class="shot blue"><img src="assets/panel-hmc.png" alt="Panel logístico"></div>
+                    <div class="project-copy"><small>SISTEMA INTERNO</small>
+                        <h3>Panel Logístico</h3>
+                        <p>Órdenes, contratos y reportes.</p><span class="muted">Trabajo institucional · vista
+                            limitada</span>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="shot mint"><img src="assets/veterinaria.png" alt="Sistema veterinario"></div>
+                    <div class="project-copy"><small>SISTEMA</small>
+                        <h3>Mis Peluditos</h3>
+                        <p>Citas, pacientes e historial.</p><span class="muted">Proyecto privado</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div>
+                <p class="kicker">SOBRE MÍ</p>
+                <h2>Desarrollo software.<br>Sin complicarlo.</h2>
+                <div class="portrait-wrap"><img src="assets/jhoao-foto.png" alt="Jhoao Elias"></div>
+            </div>
+            <div class="about-text">
+                <p>Soy Jhoao, egresado de <b>Desarrollo de Software en SENATI</b>. Trabajo con personas, negocios e
+                    instituciones.</p>
+                <p>También he desarrollado soluciones para el <b>Ejército</b>. Por privacidad, parte de ese trabajo solo
+                    se muestra de forma limitada.</p>
+                <p>Puedo trabajar <b>remoto o presencial</b>. Me cuentas la idea y vemos cómo hacerla.</p>
+                <div class="chips">
+                    <span>HTML/CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span><span>Android
+                        Studio</span><span>GitHub</span><span>Power BI</span><span>Apps</span><span>Software
+                        PC</span><span>Responsive</span></div>
+                <div class="tool-cloud" aria-label="Herramientas"><i class="fa-brands fa-github" title="GitHub"></i><i
+                        class="fa-brands fa-android" title="Android Studio / Android"></i><i class="fa-brands fa-js"
+                        title="JavaScript"></i><i class="fa-brands fa-php" title="PHP"></i><i class="fa-brands fa-html5"
+                        title="HTML5"></i><i class="fa-brands fa-css3-alt" title="CSS3"></i><i
+                        class="fa-solid fa-database" title="Bases de datos"></i><i class="fa-solid fa-chart-column"
+                        title="Power BI"></i></div>
+            </div>
+        </section>
+
+        <section class="docs" id="docs">
+            <div class="section-title">
+                <p>EXPERIENCIA</p>
+                <h2>Experiencia acreditada.</h2><span>Trabajo y formación con respaldo.</span>
+            </div>
+            <div class="doc-grid">
+                <button class="doc-card evidence-card" type="button" data-doc="assets/evidencias/hmc-2025-2026.webp"
+                    data-title="Hospital Militar Central · 2025–2026">
+                    <div class="doc-preview rose"><i class="fa-solid fa-building-columns"></i></div>
+                    <div><small>HMC · 2025–2026</small>
+                        <h3>Asistente Administrativo</h3>
+                        <p>Abastecimiento · Gestión documental · Coordinación</p><span>Ver constancia ↗</span>
+                    </div>
+                </button>
+                <button class="doc-card evidence-card" type="button" data-doc="assets/evidencias/hmc-2024.webp"
+                    data-title="Hospital Militar Central · 2024">
+                    <div class="doc-preview blue-doc"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <div><small>HMC · 2024</small>
+                        <h3>Técnico Administrativo</h3>
+                        <p>Ofimática · Documentación · Soporte logístico</p><span>Ver constancia ↗</span>
+                    </div>
+                </button>
+                <button class="doc-card evidence-card" type="button" data-doc="assets/evidencias/belen-2026.webp"
+                    data-title="I.E. Nuestra Señora de Belén · 2026">
+                    <div class="doc-preview mint-doc"><i class="fa-solid fa-school"></i></div>
+                    <div><small>BELÉN · 2026</small>
+                        <h3>Soporte Tecnológico y Digitalización</h3>
+                        <p>Apoyo administrativo · Atención al usuario</p><span>Ver constancia ↗</span>
+                    </div>
+                </button>
+                <button class="doc-card evidence-card" type="button"
+                    data-doc="assets/evidencias/cyber-club-card-2026.webp" data-title="Cyber Club Card S.A.C. · 2026">
+                    <div class="doc-preview peach-doc"><i class="fa-solid fa-headset"></i></div>
+                    <div><small>CYBER CLUB CARD · 2026</small>
+                        <h3>Atención Digital y Soporte</h3>
+                        <p>Atención al cliente · Canales digitales</p><span>Ver certificado ↗</span>
+                    </div>
+                </button>
+                <button class="doc-card evidence-card" type="button" data-doc="assets/evidencias/power-bi-2026.webp"
+                    data-title="Microsoft Power BI · 2026">
+                    <div class="doc-preview yellow-doc"><i class="fa-solid fa-chart-column"></i></div>
+                    <div><small>POWER BI · 2026</small>
+                        <h3>Básico · Intermedio · Avanzado</h3>
+                        <p>100 horas · Power Query · DAX · Dashboards</p><span>Ver certificado ↗</span>
+                    </div>
+                </button>
+                <button class="doc-card evidence-card" type="button"
+                    data-doc="assets/evidencias/hmc-carta-recomendacion.webp" data-title="Carta de recomendación · HMC">
+                    <div class="doc-preview lilac-doc"><i class="fa-regular fa-envelope-open"></i></div>
+                    <div><small>HMC · RECOMENDACIÓN</small>
+                        <h3>Carta de recomendación</h3>
+                        <p>Área de Abastecimiento · 2025–2026</p><span>Ver carta ↗</span>
+                    </div>
+                </button>
+            </div>
+            <p class="privacy-note"><i class="fa-solid fa-shield-halved"></i> Las evidencias públicas ocultan el DNI.
+                Las firmas se mantienen visibles como parte del documento.</p>
+        </section>
+        <div class="evidence-modal" id="evidenceModal" aria-hidden="true">
+            <div class="evidence-backdrop" data-close-modal></div>
+            <div class="evidence-dialog" role="dialog" aria-modal="true" aria-labelledby="evidenceTitle">
+                <div class="evidence-top">
+                    <div><small>EVIDENCIA</small>
+                        <h3 id="evidenceTitle"></h3>
+                    </div><button class="evidence-close" type="button" data-close-modal aria-label="Cerrar">×</button>
+                </div>
+                <div class="evidence-view"><img id="evidenceImage" alt="Documento acreditativo"></div>
+            </div>
+        </div>
+
+        <section class="services" id="services">
+            <p class="kicker">QUÉ PUEDO HACER</p>
+            <div class="price-note"><span>✦</span>
+                <div><b>Una idea no tiene que empezar con un presupuesto enorme.</b>
+                    <p>Trabajo con propuestas cómodas y ajustadas al alcance real de cada proyecto.</p>
+                </div>
+            </div>
+            <div class="service-row"><span>01</span>
+                <h3>Webs para negocios</h3>
+                <p>Restaurantes, tiendas, servicios, profesionales y marcas.</p>
+            </div>
+            <div class="service-row"><span>02</span>
+                <h3>Sistemas y paneles</h3>
+                <p>Ventas, inventario, pedidos, registros, reportes y gestión.</p>
+            </div>
+            <div class="service-row"><span>03</span>
+                <h3>Tiendas online</h3>
+                <p>Catálogo, carrito, pedidos, stock y administración.</p>
+            </div>
+            <div class="service-row"><span>04</span>
+                <h3>Proyectos personales</h3>
+                <p>Invitaciones, recuerdos, dedicatorias, páginas familiares y regalos digitales.</p>
+            </div>
+            <div class="service-row"><span>05</span>
+                <h3>Proyectos educativos</h3>
+                <p>Páginas, material interactivo y trabajos digitales para estudiar o presentar.</p>
+            </div>
+            <div class="service-row"><span>06</span>
+                <h3>Ideas a medida</h3>
+                <p>Si puede hacerse en web, lo conversamos.</p>
+            </div>
+            <div class="service-row"><span>07</span>
+                <h3>Rediseños y soporte</h3>
+                <p>Mejoras, cambios, mantenimiento y adaptación para celular.</p>
+            </div>
+            <div class="service-row"><span>08</span>
+                <h3>Apps y software</h3>
+                <p>Aplicaciones Android, herramientas para PC y soluciones conectadas a bases de datos.</p>
+            </div>
+        </section>
+
+        <div class="social-dock" aria-label="Plataformas"><span title="Spotify"><i
+                    class="fa-brands fa-spotify"></i></span><span title="GitHub"><i
+                    class="fa-brands fa-github"></i></span><span title="Discord"><i
+                    class="fa-brands fa-discord"></i></span><a href="https://www.instagram.com/jhoao.elias/?hl=es-la"
+                target="_blank" rel="noopener" title="Instagram"><i class="fa-brands fa-instagram"></i></a></div>
+        <section class="contact" id="contact">
+            <div>
+                <p class="kicker">CONTACTO</p>
+                <h2>¿Tienes una idea?</h2>
+                <p>Explícame qué necesitas y te digo cómo podemos hacerlo.</p>
+                <div class="contact-meta"><span><i class="fa-solid fa-envelope"></i>
+                        jhoaoalejandroguevaraelias@gmail.com</span><span><i class="fa-solid fa-location-dot"></i> Remoto
+                        o presencial</span><span><i class="fa-solid fa-code"></i> Proyectos pequeños y grandes</span>
+                </div>
+            </div>
+            <div class="contact-buttons"><a class="button dark whatsapp-link" href="https://wa.me/51913775992"
+                    target="_blank" rel="noopener">WhatsApp <i class="fa-brands fa-whatsapp"></i></a><a
+                    class="button light instagram-link" href="https://www.instagram.com/jhoao.elias/?hl=es-la"
+                    target="_blank" rel="noopener">Instagram <i class="fa-brands fa-instagram"></i></a></div>
+        </section>
+    </main>
+    <footer><a class="brand" href="#top"><img class="brand-photo" src="favicon.jpg" alt="Logo de Jhoao Elias"><b>Jhoao
+                Elias <em>ジョアオ</em></b></a><span>Desarrollo de Software · SENATI</span><span>© 2026</span></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

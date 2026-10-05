@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#00f2ff"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient></defs>
+<rect width="900" height="600" rx="42" fill="#080b12"/>
+<rect x="320" y="70" width="260" height="460" rx="42" fill="#111827" stroke="#263447" stroke-width="4"/>
+<rect x="350" y="125" width="200" height="70" rx="22" fill="url(#g)" opacity=".9"/>
+<rect x="350" y="225" width="200" height="45" rx="18" fill="#1d2939"/>
+<rect x="350" y="292" width="200" height="45" rx="18" fill="#1d2939"/>
+<rect x="350" y="359" width="200" height="45" rx="18" fill="#1d2939"/>
+<circle cx="450" cy="475" r="22" fill="#00f2ff" opacity=".8"/>
+<path d="M170 210l70 35-70 35zM730 210l-70 35 70 35z" fill="#00f2ff" opacity=".32"/>
+<text x="450" y="575" text-anchor="middle" fill="#eafcff" font-family="Arial" font-size="32" font-weight="700">apps útiles para estudiar y emprender</text>
+</svg>
