@@ -1,3 +1,18 @@
+if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+}
+
+window.addEventListener("load", () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "instant"
+    });
+});
+
+window.addEventListener("pageshow", () => {
+    window.scrollTo(0, 0);
+});
 const chars=['</>','{ }','JS','PHP','SQL','✦','01','<>'];
 const box=document.querySelector('#floaters');
 for(let i=0;i<12;i++){
